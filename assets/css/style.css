@@ -183,3 +183,12 @@ main {
     flex-direction: column;
   }
 }
+
+img:active, img:focus{
+ animation: popAnim 2s forwards;
+ transition: 1s ease-out;
+ transform: scale(3, 1);
+ transform-origin: left top;
+
+ 
+}
